@@ -4,7 +4,9 @@ Representation Sampling and Hybrid Transformer Network for Image Compressed Sens
 
 Heping Song; Jingyao Gong; Hongjie Jia; Xiangjun Shen; Jianping Gou; Hongying Meng; Le Wang
 
-[Paper](https://doi.org/10.1109/TCSVT.2025.3614371)
+IEEE Transactions on Circuits and Systems for Video Technology ( Early Access )
+
+[DOI](https://doi.org/10.1109/TCSVT.2025.3614371)
 
 ## Abstract
 
@@ -71,4 +73,5 @@ for convenient evaluation. It contains six sampling rates.
 ### Quantitative Results
 ![tables](images/tables.png)
 ![visual](images/visual.png)
+
 
