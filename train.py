@@ -36,10 +36,7 @@ def main():
         os.mkdir(model_dir)
     torch.backends.cudnn.benchmark = True
 
-    model = CSDemo(ratio=args.sensing_rate, iter_num=args.iter_num, model_dim=args.model_dim)
-    checkpoint = torch.load(f"./trained_model/{ck_file_name}", map_location=device)
-    model.load_state_dict(checkpoint, strict=False)
-    model = model.to(device)
+    model = CSDemo(ratio=args.sensing_rate, iter_num=args.iter_num, model_dim=args.model_dim).to(device)
 
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     scheduler = CosineAnnealingLR(optimizer, T_max=args.epochs, eta_min=args.flr)
