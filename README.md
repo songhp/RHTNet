@@ -3,6 +3,7 @@
 Heping Song; Jingyao Gong; Hongjie Jia; Xiangjun Shen; Jianping Gou; Hongying Meng; Le Wang
 
 IEEE Transactions on Circuits and Systems for Video Technology (Early Access)
+
 [DOI](https://doi.org/10.1109/TCSVT.2025.3614371)
 
 ## Abstract
@@ -78,7 +79,7 @@ for convenient evaluation, named the weights of RHT-Net as -light.
 
 If you find the code helpful in your research or work, please cite the following paper:
 ```
-@article{song2025representation,
+@article{RHTNet25,
   title={Representation Sampling and Hybrid Transformer Network for Image Compressed Sensing},
   author={Song, Heping and Gong, Jingyao and Jia, Hongjie and Shen, Xiangjun and Gou, Jianping and Meng, Hongying and Wang, Le},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
@@ -96,3 +97,4 @@ We thank the authors for sharing their codes:
 [USBNet](https://github.com/ICSResearch/USBNet),
 [HUNet](https://github.com/ICSResearch/HUNet),
 [NesTD-Net](https://github.com/ICSResearch/NesTD-Net)
+
